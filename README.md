@@ -64,3 +64,13 @@ Inline CSS digunakan untuk memberikan gaya langsung pada elemen HTML tertentu.
 ## Result
 
 ![Gambar 3](screenshot/ss3.png)
+
+4. Membuat CSS Eksternal
+
+Membuat file style_eksternal.css untuk menyimpan aturan CSS secara terpisah dari dokumen HTML.
+File CSS eksternal kemudian dihubungkan menggunakan tag berikut pada bagian <head>:
+<link rel="stylesheet" href="style_eksternal.css" type="text/css">
+
+## Result
+
+![Gambar 4](screenshot/ss4.png)
