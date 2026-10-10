@@ -127,3 +127,10 @@ Contoh penggunaannya pada HTML:
 
 ![Gambar 6](screenshot/ss6.png)
 
+Hasil Praktikum
+
+Hasil yang diharapkan adalah halaman web sederhana yang menampilkan judul, menu navigasi, paragraf pengenalan, dan tautan. Tampilan halaman diatur menggunakan CSS Internal, Inline CSS, dan CSS Eksternal.
+
+Kesimpulan
+
+Melalui praktikum ini, mahasiswa mempelajari penerapan CSS pada dokumen HTML menggunakan tiga metode, yaitu Internal CSS, Inline CSS, dan External CSS. Mahasiswa juga memahami penggunaan ID Selector dan Class Selector untuk mengatur tampilan elemen HTML sehingga halaman web menjadi lebih terstruktur dan menarik.
