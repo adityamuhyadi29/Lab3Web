@@ -1,53 +1,133 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS Dasar</title>
 
-<!---Menambahkan CSS Internal-->
+    <title>CSS Dasar</title>
 
-<style> 
-    body {
-        font-family: 'Open Sans', sans-serif;
-    }
-    header {
-        min-height: 80px;
-        border-bottom: 1px solid #77CCEF;
-    }
-    h1 {
-        font-size: 2px;
-        color: #0F189F;
-        text-align: center;
-        padding: 20px 10px;
-    }
-    h1 i {
-        color:#6d6a6b;
-    }
-</style>
+    <!-- CSS Internal -->
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
+        header {
+            min-height: 80px;
+            border-bottom: 2px solid #77CCEF;
+            background-color: white;
+            padding: 10px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #0F189F;
+            text-align: center;
+            padding: 20px 10px;
+            margin: 0;
+        }
+
+        h1 i {
+            color: #6d6a6b;
+        }
+
+        nav {
+            background-color: #0F189F;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #77CCEF;
+        }
+
+        /* CSS ID Selector */
+        #intro {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #intro h2 {
+            color: #0F189F;
+        }
+
+        #intro p {
+            font-size: 16px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        /* CSS Class Selector */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #0F189F;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #77CCEF;
+            color: #333;
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
         <h1>CSS Internal dan <i>Inline CSS</i></h1>
     </header>
+
     <nav>
         <a href="lab2_css_dasar.html">CSS Dasar</a>
         <a href="lab2_css_eksternal.html">CSS Eksternal</a>
         <a href="lab1_tag_dasar.html">HTML Dasar</a>
     </nav>
+
     <!-- CSS ID Selector -->
     <div id="intro">
-        <h1>Hello World</h1>
-        <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
-            <b>Pemrograman Web</b> di 
-            <i>Universitas Pelita Bangsa</i>
-            . Pelajaran pertama
-yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal
-tag-tag dasar HTML dan CSS.</p>
-    <!-- CSS Class Selector -->
-    <a class="button btn-primary" href="#intro">Informasi
-selengkapnya.</a>
+        <h2>Hello World</h2>
+
+        <p>
+            Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
+            <b>Pemrograman Web</b> di
+            <i>Universitas Pelita Bangsa</i>.
+            Pelajaran pertama yang kami dapat adalah membuat tampilan
+            web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.
+        </p>
+
+        <!-- Inline CSS -->
+        <a
+            class="button btn-primary"
+            href="#intro"
+            style="border: 1px solid #0F189F;"
+        >
+            Informasi selengkapnya
+        </a>
     </div>
+
 </body>
 </html>
+```
