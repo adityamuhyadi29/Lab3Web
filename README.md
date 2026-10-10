@@ -122,3 +122,8 @@ Contoh penggunaannya pada HTML:
 ## Result
 
 ![Gambar 5](screenshot/ss5.png)
+
+## Hasil Pengujian CSS dengan W3C CSS Validator
+
+![Gambar 6](screenshot/ss6.png)
+
