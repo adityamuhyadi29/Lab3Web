@@ -74,3 +74,51 @@ File CSS eksternal kemudian dihubungkan menggunakan tag berikut pada bagian <hea
 ## Result
 
 ![Gambar 4](screenshot/ss4.png)
+
+5. Menambahkan CSS Selector
+
+Menambahkan aturan CSS untuk mengatur menu navigasi dan tautan.
+
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+}
+
+Selain itu, ID Selector dan Class Selector digunakan untuk memberikan gaya pada elemen HTML berdasarkan atribut id dan class.
+
+Contoh ID Selector:
+
+#merah {
+    color: red;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#rata-tengah {
+    text-align: center;
+    font-size: 12pt;
+}
+
+Contoh penggunaannya pada HTML:
+
+<h1 id="merah">Heading Berwarna Merah</h1>
+<p id="rata-tengah">Paragraf dengan rata tengah</p>
+<p id="serif">Paragraf dengan font serif</p>
+
+## Result
+
+![Gambar 5](screenshot/ss5.png)
