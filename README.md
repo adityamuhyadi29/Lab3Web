@@ -53,3 +53,14 @@ Warna teks miring pada heading.
 
 ![Gambar 2](screenshot/ss2.png)
 
+3. Menambahkan Inline CSS
+
+Menambahkan atribut style secara langsung pada elemen HTML, misalnya:
+<p style="text-align: center; color: #ccd8e4;">
+    Paragraf dengan CSS Inline
+</p>
+Inline CSS digunakan untuk memberikan gaya langsung pada elemen HTML tertentu.
+
+## Result
+
+![Gambar 3](screenshot/ss3.png)
